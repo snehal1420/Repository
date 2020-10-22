@@ -11,6 +11,7 @@ public class HomeController {
 @RequestMapping( "/getdata")
 public Teststudent m1()
 {
+	System.out.println("changes made");
 	System.out.println("In get data");
 	Teststudent s= new Teststudent();
 	s.setSid(1);
